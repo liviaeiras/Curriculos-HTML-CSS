@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 1;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto; /* Margem aumentada */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #800020; /* Borda bordô */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #800020; /* Cor bordô */
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #800020; /* Cor bordô */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #800020; /* Cor bordô */
+    padding-bottom: 10px;
+    color: #800020; /* Cor bordô */
+}
+
+.job, .school {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #800020; /* Cor bordô para a borda esquerda */
+}
+
+#contato p {
+    margin: 5px 0;
+}
